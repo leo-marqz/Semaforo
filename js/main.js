@@ -1,7 +1,8 @@
 let select = document.getElementById('listColors');
 let circles = document.querySelectorAll('.circle');
+let go = document.getElementById('btn-go');
 
-select.addEventListener('change', function (){
+go.addEventListener('click', function (){
   let selected = select.options[select.selectedIndex].value;
   console.log(selected)
   if(selected == "none"){
