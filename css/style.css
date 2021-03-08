@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* encabezado */
+header{
+  background:rgb(190, 1, 74);
+  padding:25px 0px 25px 0px;
+  margin-bottom: 25px;
+}
+
+header h1{
+  color: white;
+  text-align: center;
+}
+
+/* lista de seleccion */
+nav{
+  width:100%;
+  max-width: 200px;
+  padding:15px 10px 15px 10px;
+margin:auto;
+  background:rgb(190, 1, 74);
+}
+
+nav label{
+  color: white;
+}
+
+nav select{
+  background:rgb(219, 4, 86);
+  padding:2px;
+  color: white;
+  border: 1px solid rgb(138, 10, 59);
+}
+
+nav select option{
+  color: white;
+}
+
+/* semaforo */
+main{
+  width:100%;
+  max-width: 300px;
+  padding: 5px;
+  margin:auto;
+  margin-top: 25px;
+}
+
+.box{
+  width:300px;
+  border: 1px solid rgb(138, 10, 59);
+  padding:10px;
+  border-radius: 15px;
+  background:#000000;
+  box-shadow: 5px 5px 5px black, 
+              10px 10px 10px black,
+              15px 15px 15px black,
+              16px 16px 16px rgb(0, 27, 85);
+}
+
+.circle{
+  width:150px;
+  height: 150px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 100%;
+  background:rgb(128, 125, 1);
+  box-shadow: 2px 2px 2px rgb(20, 20, 20),
+              4px 4px 4px rgb(35, 35,35),
+              6px 6px 6px rgb(45, 45, 45),
+              8px 8px 8px rgb(55, 55, 55);
+}
+
+.circle:hover{
+  background:rgb(235, 231, 2);
+}
+
+.circle:first-child{
+  background:rgb(119, 1, 1);
+}
+
+.circle:first-child:hover{
+  background:rgb(247, 11, 11);
+}
+
+.circle:last-child{
+  background:rgb(0, 110, 0);
+  margin-bottom: 10px;
+}
+
+.circle:last-child:hover{
+  background:rgb(2, 235, 2);
+}
